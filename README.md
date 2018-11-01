@@ -20,6 +20,16 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ```
     $ python setup.py install
 ```
+![03-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03-python%20setup.py%20install.png)
+
+
+Puisque le script ``setup.py`` n'a pas réussi à télécharger l'archive correctement (pour une raison inconnue), j'ai dû télécharger "manuellement" [setuptools-40.5.0.zip](https://pypi.python.org/packages/source/s/setuptools/setuptools-40.5.0.zip), en la plaçant à la racine du dossier ``python-evic``.
+
+
+
+
+
+
 
 Allowing non-root access to the device
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
