@@ -1,4 +1,4 @@
-# Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick Pico
+# Evic : Mise à jour du micrologiciel de la cigarette électronique Eleaf iStick Pico
 
 ## I Installation
 
@@ -30,7 +30,7 @@
 ```
 ![04-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
 
-7) Puisque le compte utilisateur n'est pas suffisant, je passe en ``super utilisateur``
+7) Puisque le compte utilisateur n'est pas suffisant, je passe en ``superutilisateur``
 ```
     $  sudo -s
 ```
@@ -56,12 +56,12 @@ Copier ``99-nuvoton-hid.rules`` (présent dans le dossier ``python-evic/udev/``)
 :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs:
 
 
-## II Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick Pico
+## II Mise à jour du micrologiciel de la cigarette électronique Eleaf iStick Pico
 *Pas besoin d'être ``superutilisateur`` pour éxécuter ces manipulations*
 
 1) Connecter la ``cigarette électronique Eleaf iStick Pico`` à l'ordinateur
 
-2) Sauvegarde du micro logiciel actuellement installé sur la cigarette électronique
+2) Sauvegarde du micrologiciel actuellement installé sur la cigarette électronique
 ```
     $ evic-usb dump-dataflash -o "[chemin du répertoire]/out.bin"
 ```
