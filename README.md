@@ -34,7 +34,7 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ```
     $  sudo -s
 ```
-![03bis-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
+![05-sudo -s](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/05-sudo%20-s.png)
 
 8) Troisième tentative de compilation
 ```
