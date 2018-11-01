@@ -13,8 +13,11 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
     
 
 3) Se placer dans le repertoire du code source
-
+```
     $ cd python-evic
+```
+![02-cd python-evic](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/02-cd%20python-evic.png)
+
     $ python setup.py install
 
 
