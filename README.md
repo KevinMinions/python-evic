@@ -9,8 +9,6 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
     $ cd "[chemin du répertoire]" && git clone https://github.com/Ban3/python-evic.git
 ```
 ![01-git clone](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/01-git%20clone.png)
-  
-    
 
 3) Se placer dans le repertoire du code source
 ```
@@ -18,8 +16,10 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ```
 ![02-cd python-evic](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/02-cd%20python-evic.png)
 
+4) Lancer la compilation
+```
     $ python setup.py install
-
+```
 
 Allowing non-root access to the device
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
