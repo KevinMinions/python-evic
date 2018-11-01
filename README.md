@@ -7,6 +7,10 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 2) Récupération du code source “Evic”
     $ cd "[chemin du répertoire]" && git clone https://github.com/Ban3/python-evic.git
 
+![01-git clone](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/01-git%20clone.png)
+    
+    
+
 3) Se placer dans le repertoire du code source
 
     $ cd python-evic
