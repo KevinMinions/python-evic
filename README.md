@@ -57,11 +57,15 @@ Copier ``99-nuvoton-hid.rules`` (présent dans le dossier ``python-evic/udev/``)
 
 
 ## II Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick Pico
+*Pas besoin d'être ``superutilisateur`` pour éxécuter ces manipulations*
 
+1) Connecter la ``cigarette électronique Eleaf iStick Pico`` à l'ordinateur
 
-
-
-
+2) Sauvegarde du micro logiciel actuellement installé sur la cigarette électronique
+```
+    $ evic-usb dump-dataflash -o "[chemin du répertoire]/out.bin"
+```
+![09-evic-usb dump-dataflash -o](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/09-evic-usb%20dump-dataflash.png)
 
 
 
