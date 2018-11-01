@@ -67,7 +67,7 @@ Copier ``99-nuvoton-hid.rules`` (présent dans le dossier ``python-evic/udev/``)
 ```
 ![09-evic-usb dump-dataflash -o](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/09-evic-usb%20dump-dataflash.png)
 
-3) Téléchargement et extraction du [micrologiciel](http://www.eleafworld.com/softwares-for-istick-pico/) sur le site officiel (version pour Windows)
+3) Téléchargement et extraction de l'archive contenant le [micrologiciel](http://www.eleafworld.com/softwares-for-istick-pico/) sur le site officiel (version pour Windows)
 ![11-iStick_Pico_V1.03.zip](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/11-iStick_Pico_V1.03.zip.png)
 
 4) Mise à jour du micrologiciel de la cigarette électronique Eleaf iStick Pico
