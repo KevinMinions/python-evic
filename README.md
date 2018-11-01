@@ -1,6 +1,6 @@
+# Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick Pico
 
-Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick Pico
-===============================
+## I Installation
 
 1) Installation des bibliothèques nécessaires ``python-hidapi`` et ``libusb-1.0-0-dev``
 
@@ -45,6 +45,30 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ![07-python setup.py install 02](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/07-python%20setup.py%20install%2002.png)
 
 ![08-python setup.py install 03](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/08-python%20setup.py%20install%2003.png)
+
+9) Ajouter les identifiants USB
+Copier ``99-nuvoton-hid.rules`` (présent dans le dossier ``python-evic/udev/``) et le coller dans ``/etc/udev/rules.d/``
+
+:hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs:
+
+**Installation terminée !**
+
+:hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs: :hugs:
+
+
+## II Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick Pico
+
+
+
+
+
+
+
+
+
+
+
+
 
 Allowing non-root access to the device
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
