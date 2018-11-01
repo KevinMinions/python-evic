@@ -22,14 +22,25 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ```
 ![03-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03-python%20setup.py%20install.png)
 
+5) Puisque le script ``setup.py`` n'a pas réussi à télécharger l'archive correctement (pour une raison inconnue), j'ai dû télécharger "manuellement" [setuptools-40.5.0.zip](https://pypi.python.org/packages/source/s/setuptools/setuptools-40.5.0.zip), en la plaçant à la racine du dossier ``python-evic``.
 
-Puisque le script ``setup.py`` n'a pas réussi à télécharger l'archive correctement (pour une raison inconnue), j'ai dû télécharger "manuellement" [setuptools-40.5.0.zip](https://pypi.python.org/packages/source/s/setuptools/setuptools-40.5.0.zip), en la plaçant à la racine du dossier ``python-evic``.
+6) Deuxième tentative de compilation
+```
+    $ python setup.py install
+```
+![03bis-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
 
+7) Puisque le compte utilisateur n'est pas suffisant, je passe en ``super utilisateur``
+```
+    $  sudo -s
+```
+![03bis-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
 
-
-
-
-
+8) Troisième tentative de compilation
+```
+    $ python setup.py install
+```
+![03bis-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
 
 Allowing non-root access to the device
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
