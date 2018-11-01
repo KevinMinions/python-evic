@@ -28,7 +28,7 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ```
     $ python setup.py install
 ```
-![03bis-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
+![04-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
 
 7) Puisque le compte utilisateur n'est pas suffisant, je passe en ``super utilisateur``
 ```
@@ -40,7 +40,11 @@ Evic : Mise à jour du micro logiciel de la cigarette électronique Eleaf iStick
 ```
     $ python setup.py install
 ```
-![03bis-python setup.py install](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/03bis-python%20setup.py%20install.png)
+![06-python setup.py install 01](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/06-python%20setup.py%20install%2001.png)
+
+![07-python setup.py install 02](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/06-python%20setup.py%20install%2001.png)
+
+![08-python setup.py install 03](https://raw.githubusercontent.com/KevinMinions/python-evic/master/.images/06-python%20setup.py%20install%2001.png)
 
 Allowing non-root access to the device
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
